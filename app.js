@@ -9,6 +9,10 @@ async function runPrediction() {
 
   const data = await res.json();
 
+  function runPrediction() {
+  console.log("Button clicked"); // 👈 add this
+  }
+
   displayResults(data);
   drawChart(data.dose);
 }
